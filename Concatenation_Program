@@ -10,9 +10,9 @@ namespace Concatenation_Program
             return string_no2;
         }
         public static void Main(string[] args){
-            Concatenation cls = new Concatenation();
+            Concatenation concatenate = new Concatenation();
             string result;
-            result = cls.Concat_Strings();
+            result = concatenate.Concat_Strings();
             Console.WriteLine($"{result} has arrived");
         }
     }
