@@ -4,14 +4,15 @@ namespace Concatenation_Program
 {
     class Concatenation
     {
-        public static string Concat_Strings(){
+        public string Concat_Strings(){
             string string_no1 = "Getrude";
-            string string_no2 = string_no1+" Simpson";
+            string string_no2 = string_no1 + " Simpson";
             return string_no2;
         }
         public static void Main(string[] args){
+            Concatenation cls = new Concatenation();
             string result;
-            result = Concatenation.Concat_Strings();
+            result = cls.Concat_Strings();
             Console.WriteLine($"{result} has arrived");
         }
     }
